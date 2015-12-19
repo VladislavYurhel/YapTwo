@@ -1,0 +1,25 @@
+﻿Сборка начата 20.12.2015 2:15:54.
+     1>Проект "c:\Users\владислав\documents\visual studio 2015\Projects\Проект3\Проект3\Проект3.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt Source.c
+         Source.c
+     1>c:\users\владислав\documents\visual studio 2015\projects\проект3\проект3\source.c(28): warning C4047: =: "char" отличается по уровням косвенного обращения от "void *"
+     1>c:\users\владислав\documents\visual studio 2015\projects\проект3\проект3\source.c(29): warning C4047: =: "char *" отличается по уровням косвенного обращения от "char (*)[30]"
+     1>c:\users\владислав\documents\visual studio 2015\projects\проект3\проект3\source.c(52): warning C4047: функция: "const char *" отличается по уровням косвенного обращения от "char (*)[30]"
+     1>c:\users\владислав\documents\visual studio 2015\projects\проект3\проект3\source.c(52): warning C4024: strcpy: различные типы для формального и фактического параметров 2
+     1>c:\users\владислав\documents\visual studio 2015\projects\проект3\проект3\source.c(59): warning C4047: функция: "const char *" отличается по уровням косвенного обращения от "char (*)[30]"
+     1>c:\users\владислав\documents\visual studio 2015\projects\проект3\проект3\source.c(59): warning C4024: strcpy: различные типы для формального и фактического параметров 2
+     1>c:\users\владислав\documents\visual studio 2015\projects\проект3\проект3\source.c(66): warning C4047: функция: "const char *" отличается по уровням косвенного обращения от "char (*)[30]"
+     1>c:\users\владислав\documents\visual studio 2015\projects\проект3\проект3\source.c(66): warning C4024: strcpy: различные типы для формального и фактического параметров 2
+     1>c:\users\владислав\documents\visual studio 2015\projects\проект3\проект3\source.c(75): warning C4474: "printf" : для строки формата передано слишком много аргументов
+         c:\users\владислав\documents\visual studio 2015\projects\проект3\проект3\source.c(75): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+     1>c:\users\владислав\documents\visual studio 2015\projects\проект3\проект3\source.c(42): warning C4101: token: неиспользованная локальная переменная
+     1>c:\users\владислав\documents\visual studio 2015\projects\проект3\проект3\source.c(102): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\владислав\documents\visual studio 2015\Projects\Проект3\Debug\Проект3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\владислав\documents\visual studio 2015\Projects\Проект3\Debug\Проект3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\владислав\documents\visual studio 2015\Projects\Проект3\Debug\Проект3.lib" /MACHINE:X86 Debug\Source.obj
+         Проект3.vcxproj -> c:\users\владислав\documents\visual studio 2015\Projects\Проект3\Debug\Проект3.exe
+     1>Сборка проекта "c:\Users\владислав\documents\visual studio 2015\Projects\Проект3\Проект3\Проект3.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:00.39
